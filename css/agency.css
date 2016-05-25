@@ -840,3 +840,11 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #fed136
 }
+
+#baby-doctor-logo {
+  width: 300px;
+}
+
+.navbar {
+  min-height: 90px;
+}
