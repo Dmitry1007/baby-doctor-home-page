@@ -36,7 +36,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503
+    color: #D23B51
 }
 
 h1,
@@ -77,8 +77,8 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #fec503;
-    border-color: #f6bf01
+    background-color: #D23B51;
+    border-color: #D23B51
 }
 
 .btn-primary:active,
@@ -129,8 +129,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     color: #fff;
-    background-color: #fec503;
-    border-color: #f6bf01
+    background-color: #D23B51;
+    border-color: #D23B51
 }
 
 .btn-xl:active,
@@ -177,7 +177,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503
+    color: #D23B51
 }
 
 .navbar-default .navbar-collapse {
@@ -221,7 +221,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #fec503
+    background-color: #D23B51
 }
 
 @media (min-width:768px) {
@@ -244,10 +244,13 @@ fieldset[disabled] .btn-xl.active {
     }
     .navbar-default.navbar-shrink {
         background-color: white;
-        padding: 10px 0
+        padding: 10px 0;
     }
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em
+    }
+    .navbar-default.navbar-shrink .page-scroll {
+      color: black;
     }
 }
 
@@ -835,20 +838,18 @@ body {
     webkit-tap-highlight-color: #ec4059
 }
 
-#baby-doctor-logo {
-  width: 300px;
-}
 
-.navbar {
-  min-height: 90px;
+
+/* Custom Syles After Template Import */
+
+@media (max-width:768px) {
+  #baby-doctor-logo {
+    width: 85%;
+  }
 }
 
 #geo-pin {
   height: 2em;
-}
-
-#zip-search {
-  /* width: 80%; */
 }
 
 #contact-form {
@@ -871,16 +872,19 @@ body {
   color: #ec4059;
 }
 
+/* #zip-search {
+  width: initial;
+}
+
 .footer {
   padding: 0;
   background-color: #3d5394;
   color: white;
-}
+} */
 
 .list-group {
   list-style-type: none;
 }
-
 .col-md-4.connect-wit-us {
   text-align: center;
 }
