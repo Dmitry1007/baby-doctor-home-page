@@ -706,7 +706,7 @@ footer ul.quicklinks {
 }
 
 ul.social-buttons {
-    margin-bottom: 0
+    margin-bottom: 10px
 }
 
 ul.social-buttons li a {
@@ -869,4 +869,27 @@ body {
 
 .single-call, .pricing {
   color: #ec4059;
+}
+
+.footer {
+  padding: 0;
+  background-color: #3d5394;
+  color: white;
+}
+
+.list-group {
+  list-style-type: none;
+}
+
+.col-md-4.connect-wit-us {
+  text-align: center;
+}
+
+.social-buttons {
+  margin-bottom: 5%;
+}
+
+.container.footer {
+  width: 100%;
+  padding-left: 5%;
 }
