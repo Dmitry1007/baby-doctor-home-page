@@ -29,12 +29,12 @@ var cbpAnimatedHeader = (function() {
 		if ( sy >= changeHeaderOn ) {
 			classie.add( header, 'navbar-shrink' );
 			// Update the actual file path the this image
-			document.getElementById("baby-doctor-logo").src = "file:///Users/Dmitry/alkami/baby-doctor-home-page/img/logos/mobile_logo_blue.png"
+			document.getElementById("baby-doctor-logo").src = "img/logos/mobile_logo_blue.png"
 		}
 		else {
 			classie.remove( header, 'navbar-shrink' );
 			// Update the actual file path the this image
-			document.getElementById("baby-doctor-logo").src = "file:///Users/Dmitry/alkami/baby-doctor-home-page/img/logos/mobile_logo_white.png"
+			document.getElementById("baby-doctor-logo").src = "img/logos/mobile_logo_white.png"
 		}
 		didScroll = false;
 	}
